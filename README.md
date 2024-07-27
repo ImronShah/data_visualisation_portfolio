@@ -13,18 +13,18 @@ The data used in this project was provided by Queen Mary and some datasets were 
 
 ## Methodology
 The analysis and visualization process involved several key steps:
-1. **Data Cleaning and Preparation**: Standardized column names, removed irrelevant columns, and reshaped the dataset.
-2. **Grouping and Summarizing Data**: Calculated total beetle counts for each month and analyzed the distribution of species.
-3. **Visualization Techniques**: Utilized `ggplot2` for creating various plots and `patchwork` for arranging multiple plots together. Additionally, `RColorBrewer` was used to enhance color schemes in the visualizations.
+1. **Data Cleaning and Preparation**: Standardised column names, removed irrelevant columns, and reshaped the dataset.
+2. **Grouping and Summarizing Data**: Calculated total beetle counts for each month and analysed the distribution of species.
+3. **Visualisation Techniques**: Utilised `ggplot2` for creating various plots and `patchwork` for arranging multiple plots together. Additionally, `RColorBrewer` was used to enhance color schemes in the visualisations.
 
 The R packages used in this project include:
-- `tidyverse`: For data manipulation and visualization.
+- `tidyverse`: For data manipulation and visualisation.
 - `RColorBrewer`: For color palettes.
 - `patchwork`: For combining multiple plots.
 
 ## Data Visualisation by Labelling Data Points and Maniupulating Graphic Optics - Workshop 9
 
-The following graphs are from Workshop 9. You can find the related files in the directory: Workshop9.html and Workshop9Script.R. These plots demonstrate various data visualization techniques using the penguins dataset and other data sources. Each image is accompanied by a description to explain the techniques and customisations applied.
+The following graphs are from Workshop 9. You can find the related files in the directory: Workshop9.html and Workshop9Script.R. These plots demonstrate various data visualisation techniques using the penguins dataset and other data sources. Each image is accompanied by a description to explain the techniques and customisations applied.
 
 ### Gentoo Plot
 ![Gentoo Plot](./Images_for_Git/gentoo_plot.png)
