@@ -22,8 +22,9 @@ The R packages used in this project include:
 - `RColorBrewer`: For color palettes.
 - `patchwork`: For combining multiple plots.
 
-## Data Visualisation by Labelling Data Points and Maniupulating Graphic Optics 
+## Data Visualisation by Labelling Data Points and Maniupulating Graphic Optics - Workshop 9
 
+The following graphs are from Workshop 9. You can find the related files in the directory: Workshop9.html and Workshop9Script.R. These plots demonstrate various data visualization techniques using the penguins dataset and other data sources. Each image is accompanied by a description to explain the techniques and customisations applied.
 
 ### Gentoo Plot
 ![Gentoo Plot](./Images_for_Git/gentoo_plot.png)
