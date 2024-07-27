@@ -22,7 +22,7 @@ The R packages used in this project include:
 - `RColorBrewer`: For color palettes.
 - `patchwork`: For combining multiple plots.
 
-## Week 9
+## Data Visualisation by Labelling Data Points and Maniupulating Graphic Optics 
 
 
 ![A histogram of penguins](./my_plots/histograms.png)
