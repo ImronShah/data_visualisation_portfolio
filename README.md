@@ -66,4 +66,4 @@ The following graphs are from Workshop 9. You can find the related files in the 
 ![Flipper Length Distribution](./Images_for_Git/flipper_length_distribution.png)
 *Description: This image illustrates how to modify the position and appearance of the legend using the theme() function in ggplot2. By placing the legend inside the plot and removing the legend background, we can save space and make the plot more compact.*
 
-### View folder with images [here](./Images_for_Git).
+### View folder with images [HERE](./Images_for_Git).
