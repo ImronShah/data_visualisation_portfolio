@@ -12,9 +12,9 @@ The data used in this project was provided by Queen Mary and some datasets were 
 - Splitting species names into genus and species components.
 
 ## Methodology
-The analysis and visualization process involved several key steps:
+The analysis and visualisation process involved several key steps:
 1. **Data Cleaning and Preparation**: Standardised column names, removed irrelevant columns, and reshaped the dataset.
-2. **Grouping and Summarizing Data**: Calculated total beetle counts for each month and analysed the distribution of species.
+2. **Grouping and Summarising Data**: Calculated total beetle counts for each month and analysed the distribution of species.
 3. **Visualisation Techniques**: Utilised `ggplot2` for creating various plots and `patchwork` for arranging multiple plots together. Additionally, `RColorBrewer` was used to enhance color schemes in the visualisations.
 
 The R packages used in this project include:
@@ -28,7 +28,7 @@ The following graphs are from Workshop 9. You can find the related files in the 
 
 ### Gentoo Plot
 ![Gentoo Plot](./Images_for_Git/gentoo_plot.png)
-*Description: For the Gentoo plot, we're utilizing the geom_text() function with our big_penguins dataframe. Although geom_text() is used with a different dataset, it inherits the position mappings from ggplot(), ensuring accurate label placement. To prevent labels from overlapping with the data points, we use the nudge parameters to slightly shift the labels down and to the left. Additionally, the xlim() function extends the x-axis to avoid cutting off the names, ensuring all labels are fully visible.*
+*Description: For the Gentoo plot, we're utilising the geom_text() function with our big_penguins dataframe. Although geom_text() is used with a different dataset, it inherits the position mappings from ggplot(), ensuring accurate label placement. To prevent labels from overlapping with the data points, we use the nudge parameters to slightly shift the labels down and to the left. Additionally, the xlim() function extends the x-axis to avoid cutting off the names, ensuring all labels are fully visible.*
 
 ### Adelie Plot
 ![Adelie Plot](./Images_for_Git/adelie_plot.png)
@@ -36,7 +36,7 @@ The following graphs are from Workshop 9. You can find the related files in the 
 
 ### Deaths by Country
 ![Deaths by Country](./Images_for_Git/deaths_by_country.png)
-*Description: In this code, the ~ operator specifies the variable used to split the data into separate plots. The ncol parameter sets the number of columns, while dir controls the wrapping direction. This approach effectively visualizes data subsets by categorical variables.*
+*Description: In this code, the ~ operator specifies the variable used to split the data into separate plots. The ncol parameter sets the number of columns, while dir controls the wrapping direction. This approach effectively visualises data subsets by categorical variables.*
 
 ### Penguins Plot
 ![Penguins Plot](./Images_for_Git/penguins_plot.png)
@@ -56,14 +56,30 @@ The following graphs are from Workshop 9. You can find the related files in the 
 
 ### Continuous Combined Plot
 ![Con Combined Plot](./Images_for_Git/con_combined.png)
-*Description: This image illustrates the application of continuous color scales. The first plot uses the default color mapping for the body mass of penguins, while the second plot applies the "magma" option of the viridis scale, enhancing the visualization with a continuous color gradient that improves interpretability.*
+*Description: This image illustrates the application of continuous color scales. The first plot uses the default color mapping for the body mass of penguins, while the second plot applies the "magma" option of the viridis scale, enhancing the visualisation with a continuous color gradient that improves interpretability.*
 
 ### Bill Dimensions vs Body Mass
 ![Bill Dimensions vs Body Mass](./Images_for_Git/bill_dimensions_vs_body_mass.png)
-*Description: This image demonstrates how to customize various elements of a ggplot. It shows modifications to the axis titles, axis lines, text, panel background, and plot title, highlighting the flexibility and control available through the theme() function.*
+*Description: This image demonstrates how to customise various elements of a ggplot. It shows modifications to the axis titles, axis lines, text, panel background, and plot title, highlighting the flexibility and control available through the theme() function.*
 
 ### Flipper Length Distribution
 ![Flipper Length Distribution](./Images_for_Git/flipper_length_distribution.png)
 *Description: This image illustrates how to modify the position and appearance of the legend using the theme() function in ggplot2. By placing the legend inside the plot and removing the legend background, we can save space and make the plot more compact.*
+
+### Plotting Only a Subset of Your Data Graph
+![Plotting Only a Subset of Your Data](./Images_for_Git/plotting_only_a_subset_of_your_data_graph.png)
+*Description: This image highlights the relationship between flipper length (in mm) and body mass (in grams) for penguins, excluding the Chinstrap species. The points are coloured by species and shaped according to the island where the penguins were found, allowing visual differentiation of both variables.*
+
+### Geom Violoin with Labels Plot
+![Geom Violoin with Labels](./Images_for_Git/geom_violoin_with_labels_plot.png)
+*Description: This image shows a violin plot of body mass distribution (in grams) for different penguin species, separated by male, female, and unknown sex. The title is "Weight distribution among penguins," with axis labels and a caption referencing the Palmer Penguins dataset. Different colours—yellow for females, magenta for males, and grey for unknown—are used to distinguish sex, with a customised legend.*
+
+### Malaria Deaths in 2020
+![Malaria Deaths in 2020](./Images_for_Git/malaria_deaths_in_2020.png)
+*Description: This image illustrates a horizontal bar plot showing malaria deaths by country in 2020. The data is first filtered to include only the year 2020 and sorted in ascending order of deaths. Countries are then converted into factors based on this order to ensure they appear correctly on the y-axis. The ggplot uses geom_col() to create bars, and coord_flip() flips the axes for a horizontal display.*
+
+### Malaria Cases and Deaths in High Burden Countries 2000-2021 Graph
+![Malaria Cases and Deaths in High Burden Countries 2000-2021](./Images_for_Git/malaria_cases_and_deaths_in_high_burden_countries_2000-2021_graph.png)
+*Description: This image showcases a combined plot showing malaria cases and deaths in high-burden countries from 2000 to 2021. A line plot represents the number of cases over time, while a bar chart shows total deaths. Customisations include axis labels, the "Set1" colour palette, and the removal of x-axis labels and legends in the case plot. The death plot includes a legend at the bottom, and both plots are combined with a title using plot_annotation().*
 
 ### View folder with images [HERE](./Images_for_Git).
