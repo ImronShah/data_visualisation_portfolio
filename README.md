@@ -1,7 +1,7 @@
 # **Coding and Data Science Project**
 
 
-As part of my 'Coding Skills and Data Science' (BIO319) module during my third year studying Biology at Queen Mary University of London, I learnt the fundamental coding principles, including tidying and formatting data to produce informative visualisations.
+This project showcases my data visualisation work as part of the 'Coding Skills and Data Science' (BIO319) module during my third year studying Biology at Queen Mary University of London. Using real-world datasets, I applied coding principles to clean, preprocess, and visualise data. The portfolio highlights my skills in R programming, particularly in data manipulation and creating insightful visualisations with packages like ggplot2, tidyverse, and patchwork.
 
 ## Data
 The data used in this project was provided by Queen Mary and some datasets were sourced from `dung_beetles.csv`. It contains monthly counts of various beetle species, detailing their genus and species. The dataset is of moderate size, containing columns for months and species counts. Key preprocessing steps included:
