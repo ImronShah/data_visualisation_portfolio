@@ -44,7 +44,7 @@ The following graphs are from Workshop 9. You can find the related files in the 
 
 ### Combined Plot
 ![Combined Plot](./Images_for_Git/combined_plot.png)
-*Description: Note that there is a new operator, %in%, in the code above. It’s extremely handy for subsetting. Here it’s used with a vector written on the fly, but you can also use a variable that contains a vector you made previously.*
+*Description: The new operator, %in%, in the code above is handy for subsetting. Here it’s used with a vector written on the fly, but a variable that contains a vector made previously can also be used.*
 
 ### Brew Combined Plot
 ![Brew Combined Plot](./Images_for_Git/brew_combined_plot.png)
@@ -72,7 +72,7 @@ The following graphs are from Workshop 9. You can find the related files in the 
 
 ### Geom Violin with Labels Plot
 ![Geom Violin with Labels](./Images_for_Git/geom_violin_with_labels_plot.png)
-*Description: This image shows a violin plot of body mass distribution (in grams) for different penguin species, separated by male, female, and unknown sex. The title is "Weight distribution among penguins," with axis labels and a caption referencing the Palmer Penguins dataset. Different colours—yellow for females, magenta for males, and grey for unknown—are used to distinguish sex, with a customised legend.*
+*Description: This image shows a violin plot of body mass distribution (in grams) for different penguin species, separated by male, female, and unknown sex. Different colours—yellow for females, magenta for males, and grey for unknown—are used to distinguish sex, with a customised legend.*
 
 ### Malaria Deaths in 2020
 ![Malaria Deaths in 2020](./Images_for_Git/malaria_deaths_in_2020.png)
