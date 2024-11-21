@@ -1,7 +1,7 @@
 # **Coding and Data Science Project**
 
 
-As part of my BIO319 module during my third year studying Biology at Queen Mary University of London, I learnt the fundamental coding principles, tidying and formatting data as well as creating informative visualisations.
+As part of my 'Coding Skills and Data Science' (BIO319) module during my third year studying Biology at Queen Mary University of London, I learnt the fundamental coding principles, including tidying and formatting data to produce informative visualisations.
 
 ## Data
 The data used in this project was provided by Queen Mary and some datasets were sourced from `dung_beetles.csv`. It contains monthly counts of various beetle species, detailing their genus and species. The dataset is of moderate size, containing columns for months and species counts. Key preprocessing steps included:
