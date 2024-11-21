@@ -1,7 +1,7 @@
 # **Coding and Data Science Project**
 
 
-As part of my BIO319 module during my third year studying Biology at Queen Mary University of London, I learnt the fundamental coding principles, tidying and foramtting data as well as creating informative visualisations.
+As part of my BIO319 module during my third year studying Biology at Queen Mary University of London, I learnt the fundamental coding principles, tidying and formatting data as well as creating informative visualisations.
 
 ## Data
 The data used in this project was provided by Queen Mary and some datasets were sourced from `dung_beetles.csv`. It contains monthly counts of various beetle species, detailing their genus and species. The dataset is of moderate size, containing columns for months and species counts. Key preprocessing steps included:
@@ -22,7 +22,7 @@ The R packages used in this project include:
 - `RColorBrewer`: For color palettes.
 - `patchwork`: For combining multiple plots.
 
-## Data Visualisation by Labelling Data Points and Maniupulating Graphic Optics - Workshop 9
+## Data Visualisation by Labelling Data Points and Manipulating Graphic Optics - Workshop 9
 
 The following graphs are from Workshop 9. You can find the related files in the directory: Workshop9.html and Workshop9Script.R. These plots demonstrate various data visualisation techniques using the penguins dataset and other data sources. Each image is accompanied by a description to explain the techniques and customisations applied.
 
@@ -70,8 +70,8 @@ The following graphs are from Workshop 9. You can find the related files in the 
 ![Plotting Only a Subset of Your Data](./Images_for_Git/plotting_only_a_subset_of_your_data_graph.png)
 *Description: This image highlights the relationship between flipper length (in mm) and body mass (in grams) for penguins, excluding the Chinstrap species. The points are coloured by species and shaped according to the island where the penguins were found, allowing visual differentiation of both variables.*
 
-### Geom Violoin with Labels Plot
-![Geom Violoin with Labels](./Images_for_Git/geom_violoin_with_labels_plot.png)
+### Geom Violin with Labels Plot
+![Geom Violin with Labels](./Images_for_Git/geom_violin_with_labels_plot.png)
 *Description: This image shows a violin plot of body mass distribution (in grams) for different penguin species, separated by male, female, and unknown sex. The title is "Weight distribution among penguins," with axis labels and a caption referencing the Palmer Penguins dataset. Different colours—yellow for females, magenta for males, and grey for unknown—are used to distinguish sex, with a customised legend.*
 
 ### Malaria Deaths in 2020
